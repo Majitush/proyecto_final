@@ -1,0 +1,45 @@
+.bg-fondo{
+    background-color: #A8D9F1;
+    }
+    .majo{
+        width: 90px;
+        height: 90px;
+    }
+    li{
+        list-style: none;
+    }
+    .barra:hover{
+        
+            background-color: aliceblue;
+            transform: scale(0.9);
+            box-shadow: 1px 1px 10px black;
+        
+        
+    }
+    
+ 
+   
+
+    body{
+        background-color: aliceblue;
+    }
+    footer{
+        background-color: #A8D9F1;
+        width: 100%;
+        height: 140px;
+        
+    }
+    .liconos{
+        display: contents;
+        justify-content: center;
+    }
+
+    .iconos {
+
+        
+        width: 30px;
+        height: 30px;
+        justify-content: space-between;
+        
+        
+    }

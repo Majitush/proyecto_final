@@ -1,0 +1,122 @@
+
+  
+
+
+.bg-fondo{
+    background: rgb(174,216,238);
+    background: radial-gradient(circle, rgba(174,216,238,1) 0%, rgba(148,187,233,1) 100%);
+}
+header{
+    box-shadow: 5px 5px 5px rgb(102, 116, 127);
+}
+.majo{
+    width: 90px;
+    height:90px;
+} 
+li{
+    list-style: none;}
+.barra:hover{
+        
+        background-color: aliceblue;
+        transform: scale(0.9);
+        box-shadow: 1px 1px 10px black;
+        border-radius: 10%;
+    
+    
+}
+
+.foto{
+    width: 30%;
+    height: 250px;
+}
+
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+   
+
+    row-gap: 25px;  
+}
+
+.h1main {
+    text-align: center;
+    gap: 20px;
+    
+}
+.h2main{
+    text-align: center;
+    gap: 20px;
+}
+
+
+footer{
+    background: rgb(174,216,238);
+background: radial-gradient(circle, rgba(174,216,238,1) 0%, rgba(148,187,233,1) 100%);
+box-shadow: 5px 5px 5px rgb(102, 116, 127);
+    width: 100%;
+    height: 140px;
+   
+    
+}
+.divredes{
+    gap: 5px;
+    align-content: flex-start;
+}
+.liconos{
+    display:contents; 
+    align-items: flex-end;
+    gap: 20px;
+    margin: 10px;
+    width: 100%;
+    text-align: left;
+    transform: scale(1.1);
+   
+
+}
+
+.iconos {
+
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px ( black black black );
+    gap:5px;
+    
+}
+.lii:hover{
+    
+        transform: scale(0.9);
+        list-style: none;
+}
+
+.boton{
+    text-align:end;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 999;
+    border-radius: .1px black;
+    animation-name: boton;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+.boton:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 1px 1px rgb(14, 64, 14);
+}
+.pfooter{
+    gap: 5px
+}
+@keyframes boton{
+    0% {
+        box: shadow 2px; ;
+    }
+    100% {
+        box-shadow: 0 0 0 5px black;
+    }
+}
